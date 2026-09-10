@@ -6,10 +6,10 @@ app = FastAPI()
 
 # Global state trackers
 relay_database = {
-    "relay_1": False,
-    "relay_2": False,
-    "relay_3": False,
-    "relay_4": False
+    "relay_1": True,
+    "relay_2": True,
+    "relay_3": True,
+    "relay_4": True
 }
 current_observatory_temp = 0.0  # Maintained live by the ESP32's POST requests
 
